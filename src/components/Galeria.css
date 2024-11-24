@@ -1,0 +1,24 @@
+/* src/components/Galeria.css */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .galeria img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* src/components/Galeria.css */
+.galeria img {
+    /* ... estilos anteriores ... */
+    transition: transform 0.2s;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+  
