@@ -1,0 +1,30 @@
+/* src/components/CartaAmor.css */
+
+.carta-amor {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+  }
+  
+  .titulo-principal {
+    text-align: center;
+    color: #d6336c; /* Un tono rosado-romántico */
+    margin-bottom: 20px;
+    font-size: 2.5em;
+  }
+  
+  .parrafo-carta {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    white-space: pre-line; /* Preserva los saltos de línea */
+  }
+  
+  .parrafo-carta emoji {
+    font-size: 1.2em;
+  }
